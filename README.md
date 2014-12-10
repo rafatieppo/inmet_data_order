@@ -13,7 +13,7 @@ INMET_DATA_ORDER
 # 5. Exemplo
 
 #PASSO 1 - Para ler dados do GITHUB (local dos dados do exemplo)
-library(RCurl
+library(RCurl)
 #1.1
 EXAMPLE <-  getURL("https://raw.githubusercontent.com/rafatieppo/INMET_DATA_ORDER/master/INMET_DATA_EXAMPLE.csv")
 #1.2
