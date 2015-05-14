@@ -10,14 +10,14 @@
 
 # Exemplo
 
-PASSO 1 - Para ler dados do GITHUB (local dos dados do exemplo)
+## PASSO 1 - Para ler dados do GITHUB (local dos dados do exemplo)
 library(RCurl)
 
 `EXAMPLE <-  getURL("https://raw.githubusercontent.com/rafatieppo/INMET_DATA_ORDER/master/INMET_DATA_EXAMPLE.csv")`
 
 `EXAMPLE_DATA <- read.csv(text = EXAMPLE, sep=";")`
 
-verifique seus dados
+### Verifique seus dados
 
 `edit(EXAMPLE_DATA)`
  
@@ -25,16 +25,16 @@ obs: provavelvelmente seus dados estarão no seu computador, dessa forma basta u
 
 `"read.csv ("caminho do arquivo, sep=(";")`
 
-PASSO 2
+## PASSO 2
 execute a função
 
 `EXAMPLE_ONELINE <- one_line(EXAMPLE_DATA)`
 
-2.2 verifique seus dados agora
+### Verifique seus dados agora
 
 `edit(EXAMPLE_ONELINE)`
 
-PASSO 3
+## PASSO 3
 
 Se necessário exporte seus dados
 
